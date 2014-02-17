@@ -5,6 +5,12 @@
 # mac example: port=/dev/tty.MTCBA-U-G1a20
 # win example: port=COM4
 
+[linux2]
+mock=no
+poll_interval=4
+port=/dev/ttyUSB1
+baudrate=115200
+
 [darwin]
 mock=yes
 poll_interval=4
@@ -33,6 +39,6 @@ port=
 # and paste over the example section
 # below
 [endpoint]
-url=http://test.com/test
+url=http://localhost:8080/test
 public_key=
 private_key=

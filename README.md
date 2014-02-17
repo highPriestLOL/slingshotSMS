@@ -37,6 +37,16 @@ Hi! This is the experimental branch of SlingshotSMS. Here's what's different and
 ## Manual Installation
 
 * Install required libraries
+
+### Arch-linux requirements
+* sudo pacman -S python2-cherrypy
+* sudo pacman -S sqlite3
+* sudo pacman -S python2-pytz
+* sudo pacman -S python2-pysqlite
+* sudo pacman -S python2-sqlobject
+* sudo pacman -S python2-pyrss2gen
+* sudo yaourt python2-pyrss2gen
+
 * Drop into directory
 * Edit slingshotsms.txt
 * run `python slingshotsms.py`
